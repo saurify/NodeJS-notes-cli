@@ -20,3 +20,29 @@ npm install
 npm run test
 ```
 
+## To add a note
+
+```sh
+node app.js add --title="title name" --body="body goes here"
+```
+
+
+## To remove a note
+
+```sh
+node app.js remove --title="title name" 
+```
+
+
+## To list all notes
+
+```sh
+node app.js list
+```
+
+
+## To read a note
+
+```sh
+node app.js read --title="title name"
+```
